@@ -77,7 +77,7 @@ def create_app(test_config=None):
             drawing_context.text((70, 23), "@%0.3d" % beats, fill='#000000', font=caption_font)
 
             link_font = ImageFont.truetype(str(static_path / 'fonts/inter-v7-latin-700.ttf'), 32)
-            drawing_context.text((954, 47), "internet-ti.me/@%0.3d" % beats, fill='#893ff4', font=link_font, anchor='ra')
+            drawing_context.text((954, 47), "time.transcental.dev/@%0.3d" % beats, fill='#893ff4', font=link_font, anchor='ra')
 
             with Image.open(static_path / 'images/1f30e.png', 'r') as image:
                 americas_emoji = image.resize((80, 80))

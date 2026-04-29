@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     beatsSelect.value = currentBeats;
     beatsInput.value = beatsPadded;
-    document.title = `${beatsString} - internet-ti.me converter`;
+    document.title = `${beatsString} - time.transcental.dev converter`;
     beatsPermalink.href = `/${beatsString}`;
     beatsPermalink.querySelector('span.beats').innerText = beatsString;
     converterWrapper.dataset.beats = beatsPadded;

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const beatsPadded = beatsNumberFormatter.format(currentBeats);
     const beatsString = `@${beatsPadded}`;
 
-    document.title = `${beatsString} - internet-ti.me`;
+    document.title = `${beatsString} - time.transcental.dev`;
     beatsHeading.innerText = beatsString;
     beatsPermalink.href = `/${beatsString}`;
     beatsPermalink.querySelector('span.beats').innerText = beatsString;

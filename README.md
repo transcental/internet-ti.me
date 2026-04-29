@@ -1,6 +1,12 @@
-# Internet-Ti.me
+# time.transcental.dev
 
-[![CodeQL](https://github.com/ticky/internet-ti.me/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ticky/internet-ti.me/actions/workflows/codeql-analysis.yml) [![Deploy](https://github.com/ticky/internet-ti.me/actions/workflows/main.yml/badge.svg)](https://github.com/ticky/internet-ti.me/actions/workflows/main.yml)
+[![CodeQL](https://github.com/transcental/internet-ti.me/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/transcental/internet-ti.me/actions/workflows/codeql-analysis.yml)
+
+This is a fork of the original internet-ti.me project, which is no longer maintained by its original author. The original project was created by Jessica Stokes and can be found at [ticky/internet-ti.me](https://github.com/ticky/internet-ti.me). You can access the fork at https://time.transcental.dev. I hope to get a better domain soon :)
+
+Original readme:
+
+---
 
 [Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) reference and converter site, for planning things with your internet friends who aren't (yet) obsessed with Internet Time 😉
 

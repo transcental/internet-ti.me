@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}internet-ti.me Converter{% endblock %}
-{% block description %}Choose a local time and find out the corresponding Internet Time using the internet-ti.me converter{% endblock %}
+{% block title %}time.transcental.dev Converter{% endblock %}
+{% block description %}Choose a local time and find out the corresponding Internet Time using the time.transcental.dev converter{% endblock %}
 {% block content %}
   {{ super() }}
   <div id="converter" data-beats="{{ "%0.3d" % beats }}" data-live="{% block live %}false{% endblock %}">
@@ -8,7 +8,7 @@
       <h2 id="beats"><span id="beats-input"><span style="margin-top: -0.2em">@</span><select></select><input type="number" min="0" max="999" inputmode="numeric" pattern="[0-9]*" value="{{ "%0.3d" % beats }}"/><span style="font-size: .4em; margin-left:.25em">▼</span></span></h2>
 
       <a id="permalink" href="/@{{ "%0.3d" % beats }}" title="Permalink to this time">
-        internet-ti.me/<span class="beats">@{{ "%0.3d" % beats }}</span>
+        time.transcental.dev/<span class="beats">@{{ "%0.3d" % beats }}</span>
       </a>
     </div>
 

@@ -8,22 +8,22 @@
     <meta name="theme-color" content="#893ff4">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
     <link rel="mask-icon" href="{{ url_for('static', filename='mask-icon.svg') }}" color="#893ff4">
-    <title>{% block title %}{% endblock %}{% if self.title() %} - {% endif %}internet-ti.me</title>
+    <title>{% block title %}{% endblock %}{% if self.title() %} - {% endif %}time.transcental.dev</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <meta name="description" content="{% block description required %}{% endblock %}">
     <meta property="twitter:card" content="{% block twitter_card %}{% if self.image() %}summary_large_image{% else %}summary{% endif %}{% endblock %}">
     <meta property="twitter:creator" content="@ticky">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ self.title() or 'internet-ti.me' }}">
+    <meta property="og:title" content="{{ self.title() or 'time.transcental.dev' }}">
     <meta property="og:description" content="{{ self.description() }}">
     {% if self.image() -%}
     <meta property="og:image" content="{% block image %}{% endblock %}">
     {%- else -%}
     <meta property="twitter:image" content="{{ url_for('static', filename='apple-touch-icon-180x180-precomposed.png', _external=True) }}">
     {%- endif %}
-    <meta property="og:site_name" content="internet-ti.me">
+    <meta property="og:site_name" content="time.transcental.dev">
     <meta property="og:locale" content="en_GB">
-    <meta name="apple-mobile-web-app-title" content="internet-ti.me">
+    <meta name="apple-mobile-web-app-title" content="time.transcental.dev">
     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ url_for('static', filename='apple-touch-icon-76x76-precomposed.png') }}">
     <link rel="apple-touch-icon-precomposed" sizes="80x80" href="{{ url_for('static', filename='apple-touch-icon-80x80-precomposed.png') }}">
     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ url_for('static', filename='apple-touch-icon-120x120-precomposed.png') }}">
@@ -32,18 +32,19 @@
   {%- endblock %}</head>
   <body>
   {% block content -%}
-    <h1><a href="/">internet-ti.me</a></h1>
+    <h1><a href="/">time.transcental.dev</a></h1>
     <p>Internet Time reference and <a href="/converter">converter</a></p>
   {%- endblock %}
   <footer>
     <p>
       <small>
-        internet-ti.me is a (work-in-progress) shareable reference for coordinating using <a href="https://en.wikipedia.org/wiki/Swatch_Internet_Time">Internet Time</a>. Link anyone to a particular time by adding it to our URL, for example <code>https://internet-ti.me/@123</code>
+        time.transcental.dev is a (work-in-progress) shareable reference for coordinating using <a href="https://en.wikipedia.org/wiki/Swatch_Internet_Time">Internet Time</a>. Link anyone to a particular time by adding it to our URL, for example <code>https://time.transcental.dev/@123</code>
       </small>
     </p>
     <p>
       <small>
-        Made with 💜 by Jessica Stokes, who also makes <a href="https://at-watch.jessicastokes.net">@Watch</a><br/><a href="https://github.com/ticky/internet-ti.me">Source code available on GitHub</a>
+        Maintained by <a href="https://transcental.dev" target="_blank">Amber</a><br/>
+        Originally made with 💜 by <a href="https://jessicastokes.net" target="_blank">Jessica Stokes</a><br/><a href="https://github.com/transcental/internet-ti.me">Source code available on GitHub</a>
       </small>
     </p>
   </footer>
